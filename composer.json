@@ -1,0 +1,5 @@
+{
+    "require": {
+        "getuisdk/getui-php-sdk": "dev-master"
+    }
+}

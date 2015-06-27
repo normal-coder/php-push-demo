@@ -1,0 +1,50 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "0ce72c6457a5348b16eb03d19a53bef7",
+    "packages": [
+        {
+            "name": "getuisdk/getui-php-sdk",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/getuisdk/getui-php-sdk.git",
+                "reference": "c74c834f2afa846c268bf10a5820a830d0a88655"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/getuisdk/getui-php-sdk/zipball/c74c834f2afa846c268bf10a5820a830d0a88655",
+                "reference": "c74c834f2afa846c268bf10a5820a830d0a88655",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "getuisdk\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "GeTuiSDK for php",
+            "time": "2015-06-27 09:21:47"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "getuisdk/getui-php-sdk": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
