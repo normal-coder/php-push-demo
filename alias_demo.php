@@ -7,8 +7,13 @@ header('Content-Type: text/html; charset=utf-8');
 include 'vendor/autoload.php';
 
 use getuisdk\IGeTui;
+use getuisdk\IGtLinkTemplate;
+use getuisdk\IGtListMessage;
+use getuisdk\IGtNotificationTemplate;
+use getuisdk\IGtNotyPopLoadTemplate;
 use getuisdk\IGtTarget;
 use getuisdk\IGtSingleMessage;
+use getuisdk\IGtTransmissionTemplate;
 
 define('APPKEY', '');
 define('APPID', '');
@@ -91,7 +96,7 @@ function aliasUnBind()
 function aliasUnBindAll()
 {
     $igt = new IGeTui(HOST, APPKEY, MASTERSECRET);
-    $rep = $igt->unBindAliasAll(APPID, ALIAS, CID);
+    $rep = $igt->unBindAliasAll(APPID, ALIAS);
     var_dump($rep);
     echo('<br><br>');
 }
@@ -261,6 +266,3 @@ function IGtTransmissionTemplateDemo()
     //$template ->setPushInfo('', 0, '', '', '', '', '', '');
     return $template;
 }
-
-
-?>
