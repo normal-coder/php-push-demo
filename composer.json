@@ -1,5 +1,8 @@
 {
-    "require": {
-        "getuisdk/getui-php-sdk": "dev-master"
-    }
+  "name": "getuisdk-demo",
+  "description": "GeTuiSDK demo for php",
+  "license": "MIT",
+  "require": {
+    "getuisdk/getui-php-sdk":"dev-master"
+  }
 }
